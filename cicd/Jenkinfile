@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('stage:scm') {
             steps {
-                git changelog: false, poll: false, url: 'https://github.com/LuisJoseSanchez/hello-world-java.git'
+                git changelog: false, poll: false, url: 'https://github.com/dstar55/docker-hello-world-spring-boot.git'
             }
         }
         stage('stage:maven build') {
